@@ -1,4 +1,4 @@
-import {doSocialLogin} from "@/app/actions"
+import {doSocialLogin} from "@/app/actions/index"
 const LoginForm = () => {
     return (
         <form action={doSocialLogin}>
