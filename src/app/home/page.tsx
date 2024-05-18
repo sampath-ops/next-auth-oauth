@@ -1,6 +1,7 @@
 import { auth } from "@/auth"
 import { redirect } from "next/navigation";
 import Image from "next/image";
+import Logout from "@/components/Logout";
 
 const Home = async () => {
 
@@ -18,6 +19,7 @@ const Home = async () => {
                 height={72}
                 className="rounded-full"
             />
+            <Logout/>
         </div>
     );
 }
